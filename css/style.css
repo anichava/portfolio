@@ -4,60 +4,148 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 .container {
     font-family: "Lato", sans-serif;
 }
+
 img, embed, object, video {
     max-width: 100%;
 }
+
 nav a, button {
     min-height: 48px;
     min-width: 48px;
 }
+
 .logo-padding {
     padding-top: 25px
 }
+
 .name {
     font-weight: 300;
     color: #2d3c49;
     letter-spacing: 4px;
     font-size: 50px;
 }
+
 .occupation {
     font-weight: 400;
     color: #2d3c49;
     letter-spacing: 1px;
 }
+
 @media screen and (max-width: 425px) {
     .name {
         font-size: 25px
     }
+
     .occupation {
         font-size: 12px;
     }
+
+    header div img {
+        height: 60px;
+        width: 65px;
+    }
 }
+
+@media screen and (max-width: 310px) {
+    .name {
+        font-size: 15px;
+    }
+
+    .occupation {
+        font-size: 12px;
+    }
+
+    header div img {
+        height: 50px;
+        width: 55px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    header div img {
+        height: 80px;
+        width: 85px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .name {
+        font-size: 10px;
+    }
+
+    .occupation {
+        font-size: 6px;
+    }
+
+    header div img {
+        height: 40px;
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    .name {
+        font-size: 10px;
+    }
+
+    .occupation {
+        font-size: 6px;
+    }
+
+    header div img {
+        height: 20px;
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 230px) {
+    .featured-work-headers {
+        color: #2d3c49;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .featured-work-title {
+        color: #7d97ad;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 230px) {
+    .featured-work-headers {
+        color: #2d3c49;
+        font-weight: 400;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .featured-work-title {
+        color: #7d97ad;
+        font-weight: 400;
+        font-size: 30px;
+    }
+}
+
 div hr {
     border: none;
     height: 4px;
     background-color: #7d97ad;
 }
+
 figure img {
     min-width: 100%;
 }
-.featured-work-title {
-    color: #7d97ad;
-    font-weight: 400;
-    font-size: 30px;
-}
+
 .projects {
     font-family: "Lato", sans-serif;
 }
-.featured-work-headers {
-    color: #2d3c49;
-    font-weight: 400;
-    font-size: 35px;
-    text-align: center;
-}
+
 .featured-work-align {
     text-align: center;
 }
